@@ -1,3 +1,4 @@
+http://example.com/about/index.html
 http://example.com/2024/04/26/first-attempt/
 http://example.com/2024/04/26/hello-world/
 http://example.com/
