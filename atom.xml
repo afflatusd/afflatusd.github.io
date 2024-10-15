@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-10-14T14:40:17.733Z</updated>
+  <updated>2024-10-15T03:01:39.669Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>折射率</title>
+    <link href="http://example.com/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/"/>
+    <id>http://example.com/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/</id>
+    <published>2024-10-15T03:01:30.000Z</published>
+    <updated>2024-10-15T03:01:39.669Z</updated>
+    
+    <content type="html"><![CDATA[<p>在最简单的原子模型中，假设电子弹性地束缚在它们的平衡位置上，因此，当这些电子在电场的作用下发生位移时，胡克定律将会生效，使电子恢复到它们的平衡位置。依次，电子的运动方程为<br>$$m\ddot x +\omega_0^2 \pmb x &#x3D; -\frac qm \pmb E$$<br>假设<br>$$\pmb E &#x3D; \hat {\pmb x}E_0cos(kz-\omega t)$$<br>从而<br>$$\ddot x +\omega_0^2 \pmb x &#x3D; -\frac qmE_0 cos(kz-\omega t)$$<br>在最简单的原子模型中，假设负电荷的中心位于原子核的中心。在存在电场的情况下，负电荷的中心就会偏离原子核的位置，使得原子有了一定的偶极矩。如果单位体积内有N个色散电子，则极化强度矢量由下式给出<br>$$\pmb P &#x3D;-Nq\pmb x &#x3D;\frac{Nq^2}{m(\omega_0^2-\omega^2)}\pmb E$$<br>这样介电常数$\epsilon&#x3D;\epsilon_0+\chi$, 或者<br>$$n^2&#x3D;\epsilon&#x2F;\epsilon_0&#x3D;1+\frac{Nq^2}{m(\omega_0^2-\omega^2)}$$<br>这表明折射率与频率有关，这一现象称为色散。并且，当$\omega$增大时，$n^2$也增大，即折射率随频率的增大而增大，这称为正常色散。如果进一步假设$\omega&#x2F;\omega_0\ll1$那么<br>$$n^2&#x3D;1+\frac{Nq^2}{m(\omega_0^2-\omega^2)}\approx1+\frac{Nq^2}{m\epsilon_0\omega_0^2}+\frac{4\pi^2c^2Nq^2}{m\epsilon_0\omega_0^4}\frac1{\lambda_0^2}$$<br>这就是柯西公式</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在最简单的原子模型中，假设电子弹性地束缚在它们的平衡位置上，因此，当这些电子在电场的作用下发生位移时，胡克定律将会生效，使电子恢复到它们的平衡位置。依次，电子的运动方程为&lt;br&gt;$$m&#92;ddot x +&#92;omega_0^2 &#92;pmb x &amp;#x3D; -&#92;frac qm &#92;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>work20</title>
