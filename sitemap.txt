@@ -1,7 +1,7 @@
-http://example.com/about/index.html
-http://example.com/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/
-http://example.com/tags/index.html
-http://example.com/2024/04/26/first-attempt/
-http://example.com/2024/04/26/hello-world/
-http://example.com/
-http://example.com/tags/test/
+https://afflatusd.github.io/tags/index.html
+https://afflatusd.github.io/about/index.html
+https://afflatusd.github.io/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/
+https://afflatusd.github.io/2024/04/26/first-attempt/
+https://afflatusd.github.io/2024/04/26/hello-world/
+https://afflatusd.github.io/
+https://afflatusd.github.io/tags/test/

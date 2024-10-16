@@ -3,11 +3,11 @@
   <title>afflatusdのblog</title>
   
   <subtitle>即使身处果壳中，我仍自以为是无限宇宙之王</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://afflatusd.github.io/"/>
   <updated>2024-10-15T12:09:12.832Z</updated>
-  <id>http://example.com/</id>
+  <id>https://afflatusd.github.io/</id>
   
   <author>
     <name>drd</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>折射率</title>
-    <link href="http://example.com/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/"/>
-    <id>http://example.com/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/</id>
+    <link href="https://afflatusd.github.io/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/"/>
+    <id>https://afflatusd.github.io/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/</id>
     <published>2024-10-15T03:01:30.000Z</published>
     <updated>2024-10-15T12:09:12.832Z</updated>
     
@@ -31,14 +31,14 @@
     
     
     
-    <category term="test" scheme="http://example.com/tags/test/"/>
+    <category term="test" scheme="https://afflatusd.github.io/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>first attempt</title>
-    <link href="http://example.com/2024/04/26/first-attempt/"/>
-    <id>http://example.com/2024/04/26/first-attempt/</id>
+    <link href="https://afflatusd.github.io/2024/04/26/first-attempt/"/>
+    <id>https://afflatusd.github.io/2024/04/26/first-attempt/</id>
     <published>2024-04-26T04:54:06.000Z</published>
     <updated>2024-04-26T04:54:41.269Z</updated>
     
@@ -60,8 +60,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/2024/04/26/hello-world/"/>
-    <id>http://example.com/2024/04/26/hello-world/</id>
+    <link href="https://afflatusd.github.io/2024/04/26/hello-world/"/>
+    <id>https://afflatusd.github.io/2024/04/26/hello-world/</id>
     <published>2024-04-26T04:36:01.314Z</published>
     <updated>2024-04-26T04:36:01.314Z</updated>
     
