@@ -6,3 +6,4 @@ https://afflatusd.github.io/2024/04/26/first-attempt/
 https://afflatusd.github.io/2024/04/26/hello-world/
 https://afflatusd.github.io/
 https://afflatusd.github.io/tags/test/
+https://afflatusd.github.io/tags/optics/

@@ -6,7 +6,7 @@
   <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
   <link href="https://afflatusd.github.io/"/>
-  <updated>2024-10-16T11:47:06.393Z</updated>
+  <updated>2024-10-16T15:50:30.826Z</updated>
   <id>https://afflatusd.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://afflatusd.github.io/2024/10/16/%E5%85%89%E5%AD%A6%E6%A6%82%E8%BF%B0/"/>
     <id>https://afflatusd.github.io/2024/10/16/%E5%85%89%E5%AD%A6%E6%A6%82%E8%BF%B0/</id>
     <published>2024-10-16T11:40:38.000Z</published>
-    <updated>2024-10-16T11:47:06.393Z</updated>
+    <updated>2024-10-16T15:50:30.826Z</updated>
     
-    <content type="html"><![CDATA[<p>Newton 公爵在他的《光学》中提出了光的微粒模型，惠更斯于1678年致信法国皇家科学院，首次提出波动学说。这个理论直到托马斯·杨的双缝干涉实验才得到广泛的认同。<br>Maxwell方程组一个重大贡献就是预言了光是一种电磁波，为爱因斯坦提出光速不变并抛弃以太学说提供了指导。现在我们相信光具有波粒二象性，为波动学说和威力学说提供了调和的可能</p>]]></content>
+    <content type="html"><![CDATA[<p>Newton 公爵在他的《光学》中提出了光的微粒模型，惠更斯于1678年致信法国皇家科学院，首次提出波动学说。这个理论直到托马斯·杨的双缝干涉实验才得到广泛的认同。<br>Maxwell方程组一个重大贡献就是预言了光是一种电磁波，为爱因斯坦提出光速不变并抛弃以太学说提供了指导。现在我们相信光具有波粒二象性，为波动学说和微粒学说提供了调和的可能。<br>几何光学理论建立在基于光波波长$\lambda \gets 0$的假设上。基础的理论是Snell’s law,这个定律又可以从费马最小作用原理中导出。几何光学提供了一套完整的符号规范，其中的像差理论为工程的设计做出了重要的指导。拉赫不变量是我印象最深的量，因为这个量为几何光学的矩阵运算提供了基础，与高斯光束中光束参量积遥相呼应，同时能够推出渐变折射率波导中的光迹，为GRIN透镜提供了理论指导<br>波动光学主要研究光的干涉，和衍射理论，其核心就是基尔霍夫衍射理论以及菲涅尔近似和夫琅合费近似，分别对应傍轴近似和远场近似。首先还是从斯涅尔定律出发，探讨了光在两个介质交界面的行为的强度的分配。还有马吕斯定理，使我我真切认识到光的偏振。</p>]]></content>
     
     
       
@@ -33,6 +33,8 @@
     
     
     
+    
+    <category term="optics" scheme="https://afflatusd.github.io/tags/optics/"/>
     
   </entry>
   
