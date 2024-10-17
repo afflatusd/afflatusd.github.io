@@ -6,7 +6,7 @@
   <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
   <link href="https://afflatusd.github.io/"/>
-  <updated>2024-10-16T15:50:30.826Z</updated>
+  <updated>2024-10-17T08:23:20.377Z</updated>
   <id>https://afflatusd.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>群速度和脉冲色散</title>
+    <link href="https://afflatusd.github.io/2024/10/17/%E7%BE%A4%E9%80%9F%E5%BA%A6%E5%92%8C%E8%84%89%E5%86%B2%E8%89%B2%E6%95%A3/"/>
+    <id>https://afflatusd.github.io/2024/10/17/%E7%BE%A4%E9%80%9F%E5%BA%A6%E5%92%8C%E8%84%89%E5%86%B2%E8%89%B2%E6%95%A3/</id>
+    <published>2024-10-17T07:41:43.000Z</published>
+    <updated>2024-10-17T08:23:20.377Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>光源一开一关，就产生了一个脉冲。这个脉冲以所谓的群速度在介质中传播，本章将对群速度进行讨论，此外还将讨论当脉冲在传播时产生畸变的情况</p></blockquote><ul><li>对于折射率随频率有变化$n(\omega)$的介质，有$$k(\omega)&#x3D;\frac \omega cn(\omega)$$<br>群速度为$$\frac 1c(n-\lambda_0\frac{dn}{d\lambda})$$</li><li>在色散介质中传输距离L后，脉冲会展宽，其展宽量为<br>$$\Delta \tau_m&#x3D;-\frac{L\Delta \lambda_0}{\lambda_0c}(\lambda_0^2\frac{d^2 n}{d\lambda^2})$$<br>其中，$\Delta \lambda$是光源的频谱宽度，下标m表示考虑到了介质的色散。色散系数为<br>$$<br>D_m&#x3D;\frac{\Delta \tau_m}{L\Delta\lambda_0}\approx-\frac{1}{3\lambda_0}(\lambda_0^2\frac{d^2n}{d\lambda_0^2})\cdot10^4ps&#x2F;(km\cdot nm)<br>$$</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;光源一开一关，就产生了一个脉冲。这个脉冲以所谓的群速度在介质中传播，本章将对群速度进行讨论，此外还将讨论当脉冲在传播时产生畸变的情况&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;对于折射率随频率有变化$n(&#92;omega)$的介质，有$$k</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>光学概述</title>
