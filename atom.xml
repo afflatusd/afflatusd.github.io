@@ -6,7 +6,7 @@
   <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
   <link href="https://afflatusd.github.io/"/>
-  <updated>2024-10-18T15:42:15.540Z</updated>
+  <updated>2024-10-21T00:51:37.189Z</updated>
   <id>https://afflatusd.github.io/</id>
   
   <author>
@@ -17,21 +17,21 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>first attempt</title>
-    <link href="https://afflatusd.github.io/2024/10/18/%E6%B3%A2%E7%9A%84%E4%BC%A0%E6%92%AD%E5%92%8C%E6%B3%A2%E5%8A%A8%E6%96%B9%E7%A8%8B/"/>
-    <id>https://afflatusd.github.io/2024/10/18/%E6%B3%A2%E7%9A%84%E4%BC%A0%E6%92%AD%E5%92%8C%E6%B3%A2%E5%8A%A8%E6%96%B9%E7%A8%8B/</id>
-    <published>2024-10-17T16:00:00.000Z</published>
-    <updated>2024-10-18T15:42:15.540Z</updated>
+    <title>波动方程</title>
+    <link href="https://afflatusd.github.io/2024/10/21/%E6%B3%A2%E5%8A%A8%E6%96%B9%E7%A8%8B/"/>
+    <id>https://afflatusd.github.io/2024/10/21/%E6%B3%A2%E5%8A%A8%E6%96%B9%E7%A8%8B/</id>
+    <published>2024-10-20T16:00:00.000Z</published>
+    <updated>2024-10-21T00:51:37.189Z</updated>
     
-    <content type="html"><![CDATA[<ol><li>对于一个正弦波，位移可以表示为<br>$$<br>\psi&#x3D;acos(kz \pm\omega t+ \phi)<br>$$<br>式中a为波的振幅，$\omega$为波的角频率，$k$为波数。</li><li>波动方程<br>$$</li></ol><p>$$</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>this is a test site</p></blockquote>]]></content>
     
     
       
       
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;对于一个正弦波，位移可以表示为&lt;br&gt;$$&lt;br&gt;&#92;psi&amp;#x3D;acos(kz &#92;pm&#92;omega t+ &#92;phi)&lt;br&gt;$$&lt;br&gt;式中a为波的振幅，$&#92;omega$为波的角频率，$k$为波数。&lt;/li&gt;
-&lt;li&gt;波动方程&lt;br&gt;$$&lt;/li&gt;
-&lt;/o</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;this is a test site&lt;/p&gt;
+&lt;/blockquote&gt;
+</summary>
       
     
     
