@@ -6,7 +6,7 @@
   <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
   <link href="https://afflatusd.github.io/"/>
-  <updated>2024-10-21T00:51:37.189Z</updated>
+  <updated>2024-11-12T02:45:36.724Z</updated>
   <id>https://afflatusd.github.io/</id>
   
   <author>
@@ -17,21 +17,63 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>波动方程</title>
-    <link href="https://afflatusd.github.io/2024/10/21/%E6%B3%A2%E5%8A%A8%E6%96%B9%E7%A8%8B/"/>
-    <id>https://afflatusd.github.io/2024/10/21/%E6%B3%A2%E5%8A%A8%E6%96%B9%E7%A8%8B/</id>
-    <published>2024-10-20T16:00:00.000Z</published>
-    <updated>2024-10-21T00:51:37.189Z</updated>
+    <title></title>
+    <link href="https://afflatusd.github.io/2024/11/12/%E9%BD%90%E6%80%A7%E7%A9%BA%E9%97%B4%E5%92%8C%E6%AD%A3%E5%92%8C%E5%BA%8F%E5%88%97/"/>
+    <id>https://afflatusd.github.io/2024/11/12/%E9%BD%90%E6%80%A7%E7%A9%BA%E9%97%B4%E5%92%8C%E6%AD%A3%E5%92%8C%E5%BA%8F%E5%88%97/</id>
+    <published>2024-11-12T02:31:16.758Z</published>
+    <updated>2024-11-12T02:45:36.724Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>this is a test site</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>本节将通过李群对流行的作用结果来研究流形的性质，即把流形的很多性质归结为其变换李群的分析讨论<br>李群G对流形M的左作用L是一个映射<br>$$<br>\begin{equation}<br>\left{<br>    \begin{array}{ll}<br>        L(g):M \to M\<br>        L(g):x \mapsto x’ &#x3D; L(g) \circ x \in M  ~~\forall x \in M<br>    \end{array}\right.<br>\end{equation}<br>$$<br>满足$L(g)L(h)&#x3D;L(gh)$<br>我们还可以把L视为$L:G \times M \to M$,使得<br>$$<br>(g,x) \mapsto L(g)x<br>$$</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;本节将通过李群对流行的作用结果来研究流形的性质，即把流形的很多性质归结为其变换李群的分析讨论&lt;br&gt;李群G对流形M的左作用L是一个映射&lt;br&gt;$$&lt;br&gt;&#92;begin{equation}&lt;br&gt;&#92;left{&lt;br&gt;    &#92;begin{array}{ll}&lt;br&gt;     </summary>
+      
+    
+    
+    
+    
+    <category term="qfm" scheme="https://afflatusd.github.io/tags/qfm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://afflatusd.github.io/2024/11/01/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA/"/>
+    <id>https://afflatusd.github.io/2024/11/01/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA/</id>
+    <published>2024-11-01T01:37:27.793Z</published>
+    <updated>2024-11-02T07:11:56.758Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>The career of a young theoretical physicist consists of treating the harmonic oscillator in ever-increasing of abstraction.   ——Sidney Coleman</p></blockquote>]]></content>
     
     
       
       
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;this is a test site&lt;/p&gt;
-&lt;/blockquote&gt;
-</summary>
+&lt;p&gt;The career of a young theoretical physicist consists of treating the harmonic oscillator in ever-increasing of abstraction. </summary>
+      
+    
+    
+    
+    
+    <category term="qfm" scheme="https://afflatusd.github.io/tags/qfm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>波动方程</title>
+    <link href="https://afflatusd.github.io/2024/10/21/%E4%B8%80%E4%BD%8D%E6%95%B0%E5%AD%A6%E5%AE%B6%E7%9A%84%E6%82%B2%E6%AD%8C/"/>
+    <id>https://afflatusd.github.io/2024/10/21/%E4%B8%80%E4%BD%8D%E6%95%B0%E5%AD%A6%E5%AE%B6%E7%9A%84%E6%82%B2%E6%AD%8C/</id>
+    <published>2024-10-20T16:00:00.000Z</published>
+    <updated>2024-10-25T13:05:41.799Z</updated>
+    
+    <content type="html"><![CDATA[<p>一位音乐家从他的噩梦中醒来。他发现自己正身处一个音乐教育被强行推行的世界。“我们正在帮助我们的学生在一个日益充满声音的世界中更具有竞争力”，教育工作者、学校系统和国家负责这些重要的项目，研究被委托，委员会被组建——所有这些都没有询问过在职的音乐家或作曲家的意见。<br>由于音乐家们习惯以乐谱的形式记录他们的想法，这些奇特的黑点和线条就构成了「音乐的语言」。如果学生想要达到任何程度的音乐能力，就必须精通这种语言；的确，如果一个孩子没有对音乐符号和理论有深入的了解，就期望他唱一首歌或弹一种乐器，那是荒谬的。演奏和聆听音乐，更不用说创作一首原创作品，都被认为是非常高级的话题，通常要等到大学，甚至更多的是研究生阶段才能涉及。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;一位音乐家从他的噩梦中醒来。他发现自己正身处一个音乐教育被强行推行的世界。“我们正在帮助我们的学生在一个日益充满声音的世界中更具有竞争力”，教育工作者、学校系统和国家负责这些重要的项目，研究被委托，委员会被组建——所有这些都没有询问过在职的音乐家或作曲家的意见。&lt;br&gt;由于</summary>
       
     
     
