@@ -4,6 +4,15 @@
   <url>
     <loc>https://afflatusd.github.io/2024/11/12/%E9%BD%90%E6%80%A7%E7%A9%BA%E9%97%B4%E5%92%8C%E6%AD%A3%E5%92%8C%E5%BA%8F%E5%88%97/</loc>
     
+    <lastmod>2025-03-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://afflatusd.github.io/2024/11/12/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E4%BD%9C%E4%B8%9A/</loc>
+    
     <lastmod>2024-11-12</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -13,7 +22,16 @@
   <url>
     <loc>https://afflatusd.github.io/2024/11/01/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA/</loc>
     
-    <lastmod>2024-11-02</lastmod>
+    <lastmod>2024-11-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://afflatusd.github.io/2024-10-26.html</loc>
+    
+    <lastmod>2024-10-26</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -38,9 +56,36 @@
   </url>
   
   <url>
+    <loc>https://afflatusd.github.io/2024/10/18/second%20attempt/</loc>
+    
+    <lastmod>2024-10-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://afflatusd.github.io/2024/10/18/%E7%BE%A4%E9%80%9F%E5%BA%A6%E5%92%8C%E8%84%89%E5%86%B2%E8%89%B2%E6%95%A31/</loc>
+    
+    <lastmod>2024-10-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://afflatusd.github.io/2024/10/17/%E7%BE%A4%E9%80%9F%E5%BA%A6%E5%92%8C%E8%84%89%E5%86%B2%E8%89%B2%E6%95%A3/</loc>
     
     <lastmod>2024-10-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://afflatusd.github.io/2024-10-17.html</loc>
+    
+    <lastmod>2024-10-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -83,7 +128,52 @@
   </url>
   
   <url>
+    <loc>https://afflatusd.github.io/2024/10/15/test4/</loc>
+    
+    <lastmod>2024-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://afflatusd.github.io/2024/10/15/ttest/</loc>
+    
+    <lastmod>2024-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://afflatusd.github.io/2024/10/15/test/</loc>
+    
+    <lastmod>2024-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://afflatusd.github.io/2024/10/15/test2/</loc>
+    
+    <lastmod>2024-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://afflatusd.github.io/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/</loc>
+    
+    <lastmod>2024-10-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://afflatusd.github.io/2024/10/13/work20/</loc>
     
     <lastmod>2024-10-15</lastmod>
     
@@ -166,7 +256,7 @@
 
   <url>
     <loc>https://afflatusd.github.io/</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2025-03-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -174,21 +264,21 @@
   
   <url>
     <loc>https://afflatusd.github.io/tags/test/</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2025-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://afflatusd.github.io/tags/optics/</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2025-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://afflatusd.github.io/tags/qfm/</loc>
-    <lastmod>2024-11-12</lastmod>
+    <lastmod>2025-03-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

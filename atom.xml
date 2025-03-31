@@ -6,7 +6,7 @@
   <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
   <link href="https://afflatusd.github.io/"/>
-  <updated>2024-11-12T02:45:36.724Z</updated>
+  <updated>2024-11-12T12:48:26.527Z</updated>
   <id>https://afflatusd.github.io/</id>
   
   <author>
@@ -18,17 +18,37 @@
   
   <entry>
     <title></title>
+    <link href="https://afflatusd.github.io/2024/11/12/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E4%BD%9C%E4%B8%9A/"/>
+    <id>https://afflatusd.github.io/2024/11/12/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E4%BD%9C%E4%B8%9A/</id>
+    <published>2024-11-12T12:37:23.237Z</published>
+    <updated>2024-11-12T12:48:26.527Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>1.1</strong> Show that the 4D volumn element is invariant under Lorentz transformation:<br>$$d^4x &#x3D; d^4x′$$pr.<br>$$<br>d^4x’&#x3D;\partial \frac{x’^\mu}{\partial x^\nu}&#x3D;\frac{\partial \Lambda^\mu_{\nu}x^\rho}{\partial x^\nu}&#x3D;\Lambda^\mu_{\rho}\delta^\rho_{\nu}&#x3D;\Lambda<br>$$$$<br>\begin{align} \<br>&amp;d^4x’&#x3D;\frac{\partial x’^\mu}{\partial x^\nu}\<br> &amp;\frac{\partial x’^\mu}{\partial x^\nu}&#x3D;\frac{\partial \Lambda^\mu_{\nu}x^\rho}{\partial x^\nu}&#x3D;\Lambda^\mu_{\rho}\delta^\rho_{\nu}&#x3D;\Lambda^\mu_{\nu} \ \<br>\Rightarrow &amp;d^4x’^\mu&#x3D;\Lambda^\mu_{\nu}x^\nu\</p><p>\end{align}<br>$$<br><strong>1.2</strong> Show that under a Lorentz transformation,</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;strong&gt;1.1&lt;/strong&gt; Show that the 4D volumn element is invariant under Lorentz transformation:&lt;br&gt;$$d^4x &amp;#x3D; d^4x′$$pr.&lt;br&gt;$$&lt;br&gt;d^4x</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
     <link href="https://afflatusd.github.io/2024/11/12/%E9%BD%90%E6%80%A7%E7%A9%BA%E9%97%B4%E5%92%8C%E6%AD%A3%E5%92%8C%E5%BA%8F%E5%88%97/"/>
     <id>https://afflatusd.github.io/2024/11/12/%E9%BD%90%E6%80%A7%E7%A9%BA%E9%97%B4%E5%92%8C%E6%AD%A3%E5%92%8C%E5%BA%8F%E5%88%97/</id>
     <published>2024-11-12T02:31:16.758Z</published>
-    <updated>2024-11-12T02:45:36.724Z</updated>
+    <updated>2025-03-31T00:26:11.589Z</updated>
     
-    <content type="html"><![CDATA[<p>本节将通过李群对流行的作用结果来研究流形的性质，即把流形的很多性质归结为其变换李群的分析讨论<br>李群G对流形M的左作用L是一个映射<br>$$<br>\begin{equation}<br>\left{<br>    \begin{array}{ll}<br>        L(g):M \to M\<br>        L(g):x \mapsto x’ &#x3D; L(g) \circ x \in M  ~~\forall x \in M<br>    \end{array}\right.<br>\end{equation}<br>$$<br>满足$L(g)L(h)&#x3D;L(gh)$<br>我们还可以把L视为$L:G \times M \to M$,使得<br>$$<br>(g,x) \mapsto L(g)x<br>$$</p>]]></content>
+    <content type="html"><![CDATA[<p>本节将通过李群对流形的作用结果来研究流形的性质，即把流形的很多性质归结为其变换李群的分析讨论。<br>李群G对流形M的左作用L是一个映射<br>$$<br>\begin{equation}<br>\left{<br>    \begin{array}{ll}<br>        L(g):M \to M\<br>        L(g):x \mapsto x’ &#x3D; L(g) \circ x \in M  ~~\forall x \in M<br>    \end{array}\right.<br>\end{equation}<br>$$</p><p>满足 $L(g)L(h)&#x3D;L(gh)$<br>我们还可以把L视为 $L:G \times M \to M$ ,使得<br>$$<br>(g,x) \mapsto L(g)x<br>$$</p><p>假设这个映射是可微的，如果 $\forall x,y \in M, \exists g \in G:L(g)x&#x3D;y$ , 则</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;本节将通过李群对流行的作用结果来研究流形的性质，即把流形的很多性质归结为其变换李群的分析讨论&lt;br&gt;李群G对流形M的左作用L是一个映射&lt;br&gt;$$&lt;br&gt;&#92;begin{equation}&lt;br&gt;&#92;left{&lt;br&gt;    &#92;begin{array}{ll}&lt;br&gt;     </summary>
+    <summary type="html">&lt;p&gt;本节将通过李群对流形的作用结果来研究流形的性质，即把流形的很多性质归结为其变换李群的分析讨论。&lt;br&gt;李群G对流形M的左作用L是一个映射&lt;br&gt;$$&lt;br&gt;&#92;begin{equation}&lt;br&gt;&#92;left{&lt;br&gt;    &#92;begin{array}{ll}&lt;br&gt;    </summary>
       
     
     
@@ -43,7 +63,7 @@
     <link href="https://afflatusd.github.io/2024/11/01/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA/"/>
     <id>https://afflatusd.github.io/2024/11/01/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA/</id>
     <published>2024-11-01T01:37:27.793Z</published>
-    <updated>2024-11-02T07:11:56.758Z</updated>
+    <updated>2024-11-12T12:37:16.635Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>The career of a young theoretical physicist consists of treating the harmonic oscillator in ever-increasing of abstraction.   ——Sidney Coleman</p></blockquote>]]></content>
     
@@ -75,6 +95,43 @@
       
     <summary type="html">&lt;p&gt;一位音乐家从他的噩梦中醒来。他发现自己正身处一个音乐教育被强行推行的世界。“我们正在帮助我们的学生在一个日益充满声音的世界中更具有竞争力”，教育工作者、学校系统和国家负责这些重要的项目，研究被委托，委员会被组建——所有这些都没有询问过在职的音乐家或作曲家的意见。&lt;br&gt;由于</summary>
       
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>first attempt</title>
+    <link href="https://afflatusd.github.io/2024/10/18/second%20attempt/"/>
+    <id>https://afflatusd.github.io/2024/10/18/second%20attempt/</id>
+    <published>2024-10-17T16:00:00.000Z</published>
+    <updated>2024-10-21T00:48:33.109Z</updated>
+    
+    <content type="html"><![CDATA[<ol><li>对于一个正弦波，位移可以表示为<br>$$<br>\psi&#x3D;acos(kz \pm\omega t+ \phi)<br>$$<br>式中a为波的振幅，$\omega$为波的角频率，$k$为波数。</li><li>波动方程</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;对于一个正弦波，位移可以表示为&lt;br&gt;$$&lt;br&gt;&#92;psi&amp;#x3D;acos(kz &#92;pm&#92;omega t+ &#92;phi)&lt;br&gt;$$&lt;br&gt;式中a为波的振幅，$&#92;omega$为波的角频率，$k$为波数。&lt;/li&gt;
+&lt;li&gt;波动方程&lt;/li&gt;
+&lt;/ol&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>first attempt</title>
+    <link href="https://afflatusd.github.io/2024/10/18/%E7%BE%A4%E9%80%9F%E5%BA%A6%E5%92%8C%E8%84%89%E5%86%B2%E8%89%B2%E6%95%A31/"/>
+    <id>https://afflatusd.github.io/2024/10/18/%E7%BE%A4%E9%80%9F%E5%BA%A6%E5%92%8C%E8%84%89%E5%86%B2%E8%89%B2%E6%95%A31/</id>
+    <published>2024-10-17T16:00:00.000Z</published>
+    <updated>2024-10-18T15:38:06.532Z</updated>
+    
     
     
     
@@ -128,6 +185,82 @@
   </entry>
   
   <entry>
+    <title>test4</title>
+    <link href="https://afflatusd.github.io/2024/10/15/test4/"/>
+    <id>https://afflatusd.github.io/2024/10/15/test4/</id>
+    <published>2024-10-15T12:27:48.000Z</published>
+    <updated>2024-10-15T12:27:48.462Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ttest</title>
+    <link href="https://afflatusd.github.io/2024/10/15/ttest/"/>
+    <id>https://afflatusd.github.io/2024/10/15/ttest/</id>
+    <published>2024-10-15T12:21:48.000Z</published>
+    <updated>2024-10-15T12:22:11.027Z</updated>
+    
+    <content type="html"><![CDATA[<p>测试默认top_img</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;测试默认top_img&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://afflatusd.github.io/2024/10/15/test/"/>
+    <id>https://afflatusd.github.io/2024/10/15/test/</id>
+    <published>2024-10-15T12:10:02.000Z</published>
+    <updated>2024-10-15T12:21:08.822Z</updated>
+    
+    <content type="html"><![CDATA[<p>测试top_img的效果</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;测试top_img的效果&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://afflatusd.github.io/2024/10/15/test2/"/>
+    <id>https://afflatusd.github.io/2024/10/15/test2/</id>
+    <published>2024-10-15T12:10:02.000Z</published>
+    <updated>2024-10-15T12:21:08.822Z</updated>
+    
+    <content type="html"><![CDATA[<p>测试top_img的效果</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;测试top_img的效果&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>折射率</title>
     <link href="https://afflatusd.github.io/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/"/>
     <id>https://afflatusd.github.io/2024/10/15/%E6%8A%98%E5%B0%84%E7%8E%87/</id>
@@ -143,6 +276,26 @@
     
     
     <category term="test" scheme="https://afflatusd.github.io/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>work20</title>
+    <link href="https://afflatusd.github.io/2024/10/13/work20/"/>
+    <id>https://afflatusd.github.io/2024/10/13/work20/</id>
+    <published>2024-10-13T15:30:50.000Z</published>
+    <updated>2024-10-15T03:00:55.513Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="自测1"><a href="#自测1" class="headerlink" title="自测1"></a>自测1</h1><h2 id="1-单选题"><a href="#1-单选题" class="headerlink" title="1 单选题"></a>1 单选题</h2><p>DBCCD CCCDB</p><h2 id="2-填空题"><a href="#2-填空题" class="headerlink" title="2 填空题"></a>2 填空题</h2><ol><li>$-i\hbar \frac \partial{\partial x}$ $-\frac{\hbar^2}{2m}\nabla^2$  $-\frac{\hbar^2}{2m}\nabla^2+\hat{V}$ </li><li>$Aexp[i&#x2F;\hbar(px-Et)]$ $A\delta(p-p’)e^{\frac1{\hbar} Et}$  不是 $\pm \hbar k$  $\hbar^2 k^2&#x2F;2m$ 是</li><li>0  $+\infty$ ,$\hbar^2&#x2F;4$ ,$+\infty$, 0</li><li>$2i\hbar p_x$ ,$\hat{p_x}*2x$, $L_z$   0,  0</li><li>不是， $[a,a^{\dagger}]&#x3D;1$ 是 ，$\frac12\hbar \omega$</li></ol><h2 id="3-计算题"><a href="#3-计算题" class="headerlink" title="3 计算题"></a>3 计算题</h2><p>算符的平均值$\bar O&#x3D;\bra{\psi} O\ket{\psi}&#x3D;\bra{nlm} O\ket{nlm}$</p><h3 id="1）"><a href="#1）" class="headerlink" title="1）"></a>1）</h3><ol><li>$E&#x3D;-\frac{e_s^2}{2a_0n^2}$<br>则E的取值有可能为$-\frac{e_s^2}{8a_0}$ 或 $-\frac{e_s^2}{18a_0}$ ，概率分别为 $\sum_{lm} |c_{2lm}|^2$  和 $\sum_{lm} |c_{3lm}|^2$<br>得，概率分别为 3&#x2F;5 和2&#x2F;5<br>则$$\begin{align}<br>\bar{E}&#x3D;\bra{nlm} O\ket{nlm}&#x3D;\sum_{lm} |c_{nlm}|^2 E_n&#x3D;-\frac7{72}\frac{e_s^2}{a_0}<br>\end{align}$$</li><li>$\bar{L^2}&#x3D;l(l+1)\hbar^2$<br>则$L^2$ 的取值有可能为$2\hbar^2$ ,概率为1<br>则$$<br>\bar{L^2}&#x3D;\bra{nlm} O\ket{nlm}&#x3D;\sum_{nm} |c_{nlm}|^2 L^2_n&#x3D;2\hbar^2<br>$$</li><li>$\bar{L_z}&#x3D;m\hbar$<br>则$L_z$ 的取值有可能为$0,-\hbar$ ,概率为$\begin{matrix} 3&#x2F;5,2&#x2F;5 \end{matrix}$<br>则$$<br>\bar{L^2}&#x3D;\bra{nlm} O\ket{nlm}&#x3D;\sum_{nl} |c_{nlm}|^2 L^2_n&#x3D;-\frac25\hbar<br>$$</li></ol><h3 id="2）"><a href="#2）" class="headerlink" title="2）"></a>2）</h3><p>$L_z$ 的取值有可能为$\hbar,0,-\hbar$  ;<br>$L_z$自身的表象为$c_l$ ,即波函数可以表示为$\psi&#x3D;\sum_l c_l \psi_l$<br>$(L_z)<em>{\rho \nu}&#x3D;\bra{m</em>{\rho}} L_z\ket{m_{\nu}}&#x3D;\delta_{\rho \nu}\bar{L_z}^{\rho}$<br>得到$$L_z&#x3D;\begin{Bmatrix}<br>\hbar &amp; 0 &amp;  0\<br>0 &amp;0 &amp;  0\<br>0 &amp; 0 &amp;  -\hbar\<br>\end{Bmatrix}$$</p><h1 id="自测2"><a href="#自测2" class="headerlink" title="自测2"></a>自测2</h1><h2 id="1-填空题"><a href="#1-填空题" class="headerlink" title="1 填空题"></a>1 填空题</h2><ol><li>矢量，矩阵 ，厄米，本征值，波粒二象性</li><li>力学量，哈密顿量，状态，状态，本征态</li></ol><h2 id="2"><a href="#2" class="headerlink" title="2"></a>2</h2><p>由U是幺正算符，得到$UU^{\dagger}&#x3D;1$<br>$$\begin{align}<br>\hat{H}^{\dagger}&#x3D;(i\hbar\frac{dU}{dt}U^{\dagger})^{\dagger}&#x3D;-i\hbar\frac{d}{dt}(UU^{\dagger})^{\dagger}&#x3D;-i\hbar\frac{d}{dt}(1)^{\dagger}&#x3D;0&#x3D;i\hbar\frac{dU}{dt}U^{\dagger}&#x3D;\hat H<br>\end{align}$$<br>故H是厄密算符</p><h2 id="3"><a href="#3" class="headerlink" title="3"></a>3</h2><p>$l_x^2 \psi&#x3D;(yp_z-zp_y)^2\psi&#x3D;(y+z)\hbar^2$<br>$l_y^2 \psi&#x3D;(zp_x-xp_z)^2\psi&#x3D;(z+x)\hbar^2$<br>$l_z^2 \psi&#x3D;(xp_y-yp_x)^2\psi&#x3D;(x+y)\hbar^2$<br>故 $l^2 \psi&#x3D;(l_x^2+l_y^2+l_z^2)\psi&#x3D;\hbar^2*2(x+y+z)&#x3D;2\hbar^2  \psi$<br>得证</p><h2 id="4"><a href="#4" class="headerlink" title="4"></a>4</h2><ol><li>由题意，$\psi&#x3D;\sqrt{\frac13}Y_{10}+\sqrt{\frac23}Y_{11}$, 并且$l_z$的本征值是$m\hbar$<br>得到$l_z$的测值为$0,\hbar$,概率为$1&#x2F;3,2&#x2F;3$ </li><li>$$\bar l_z&#x3D;\bra{\psi} l_z\ket{\psi}&#x3D;\sum_{nl} \bra{nlm} l_z\ket{nlm}&#x3D;\frac13<em>0+\frac23</em>\hbar&#x3D;\frac23 \hbar$$</li></ol><h2 id="5"><a href="#5" class="headerlink" title="5"></a>5</h2><ol><li>$$\begin{align}<br> \bra{m} x^2\ket{n}&amp;&#x3D;(x\ket{m})^{\dagger}x\ket{n}\<br> &amp;&#x3D;\frac1{\alpha^2}(\sqrt{\frac{m+1}2}\ket{m+1}+\sqrt{\frac{m}2}\ket{m-1})^*(\sqrt{\frac{n+1}2}\ket{n+1}+\sqrt{\frac{n}2}\ket{n-1})\<br> &amp;&#x3D;\frac1{\alpha^2}(\sqrt{\frac{(m+1)(n+1)}4}\braket{m+1|n+1}+\sqrt{\frac{(m)(n+1)}4}\braket{m-1|n+1}\<br> +&amp;\sqrt{\frac{(m+1)(n)}4}\braket{m+1|n-1}+\sqrt{\frac{mn}4}\braket{m-1|n-1})\<br>&amp;&#x3D;\frac{\hbar}{m\omega}(\sqrt{\frac{(m+1)(n+1)}4}\delta^{m+1}<em>{n+1}+\sqrt{\frac{(m)(n+1)}4}\delta^{m-1}</em>{n+1}\<br> +&amp;\sqrt{\frac{(m+1)(n)}4}\delta^{m+1}<em>{n-1}+\sqrt{\frac{mn}4}\delta^{m-1}</em>{n-1}\<br>\end{align}$$</li><li>当n&#x3D;0时<br>$$\bra{m} x^2\ket{n}&#x3D;\frac{\hbar}{m\omega}(\frac12\sqrt{m+1}\delta^{m+1}<em>1+\frac12\sqrt{m}\delta^{m-1}<em>1)$$<br>故$$\begin{aligned}a</em>{m}^{(1)}(t)&amp;&#x3D;\frac{1}{i\hbar}\int</em>{0}^{t}H_{mk}^{\prime}e^{iw_{mk}t}dt\&amp;&#x3D;\frac{1}{i\hbar}\int_{0}^{t}x_{mk}^{2}e^{(iw_{mk}-2k)t}dt\&amp;&#x3D;\frac{1}{i\hbar}\cdot\frac{\hbar}{mw}\left(\frac{1}{2}\sqrt{m+1}\delta_{1}^{m+1}+\frac{1}{2}\sqrt{m}\delta_{1}^{m-1}\right)\int_{0}^{t}e^{(iw_{m0}-2k)t}dt\<br>&amp;&#x3D;\frac1{im\omega}\left(\frac{1}{2}\sqrt{m+1}\delta_{1}^{m+1}+\frac{1}{2}\sqrt{m}\delta_{1}^{m-1}\right)\frac{e^{(i\omega_{m0}-2k)t}-1}{i\omega_{m0}-2k}\<br>\end{aligned}$$<br>当m&#x3D;2时，$$a_2^{(1)}(t)&#x3D;\frac{\sqrt{2}}{4i\omega}\frac{e^{(i\omega_{20}-2k)t}-1}{i\omega_{20}-2k}$$<br>$$W_{02}&#x3D;|a_2^{(1)}|^2&#x3D;\frac1{8\omega^2}\frac{1-cos(\omega_{20}+i2k)}{\omega_{20}^2+4k^2}$$<br>又$\omega_{20}&#x3D;\frac1{\hbar}(E_2-E_0)$，故<br>$$W_{02}&#x3D;|a_2^{(1)}|^2&#x3D;\frac1{8\omega^2}\frac{1-cos(\frac1{\hbar}(E_2-E_0)+i2k)t}{[\frac1{\hbar}(E_2-E_0)]^2+4k^2}$$<br>充分 长时间后<br>$$W_{02}&#x3D;|a_2^{(1)}|^2&#x3D;\frac1{8\omega^2}\frac{\hbar^2}{[(E_2-E_0)]^2+4\hbar^2k^2}$$</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;自测1&quot;&gt;&lt;a href=&quot;#自测1&quot; class=&quot;headerlink&quot; title=&quot;自测1&quot;&gt;&lt;/a&gt;自测1&lt;/h1&gt;&lt;h2 id=&quot;1-单选题&quot;&gt;&lt;a href=&quot;#1-单选题&quot; class=&quot;headerlink&quot; title=&quot;1 单选题&quot;&gt;&lt;/a&gt;</summary>
+      
+    
+    
+    
     
   </entry>
   
