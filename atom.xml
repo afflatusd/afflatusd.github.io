@@ -6,7 +6,7 @@
   <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
   <link href="https://afflatusd.github.io/"/>
-  <updated>2024-11-12T12:48:26.527Z</updated>
+  <updated>2025-04-07T23:29:48.597Z</updated>
   <id>https://afflatusd.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://afflatusd.github.io/2024/11/12/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E4%BD%9C%E4%B8%9A/"/>
     <id>https://afflatusd.github.io/2024/11/12/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E4%BD%9C%E4%B8%9A/</id>
     <published>2024-11-12T12:37:23.237Z</published>
-    <updated>2024-11-12T12:48:26.527Z</updated>
+    <updated>2025-04-07T23:29:48.597Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>1.1</strong> Show that the 4D volumn element is invariant under Lorentz transformation:<br>$$d^4x &#x3D; d^4x′$$pr.<br>$$<br>d^4x’&#x3D;\partial \frac{x’^\mu}{\partial x^\nu}&#x3D;\frac{\partial \Lambda^\mu_{\nu}x^\rho}{\partial x^\nu}&#x3D;\Lambda^\mu_{\rho}\delta^\rho_{\nu}&#x3D;\Lambda<br>$$$$<br>\begin{align} \<br>&amp;d^4x’&#x3D;\frac{\partial x’^\mu}{\partial x^\nu}\<br> &amp;\frac{\partial x’^\mu}{\partial x^\nu}&#x3D;\frac{\partial \Lambda^\mu_{\nu}x^\rho}{\partial x^\nu}&#x3D;\Lambda^\mu_{\rho}\delta^\rho_{\nu}&#x3D;\Lambda^\mu_{\nu} \ \<br>\Rightarrow &amp;d^4x’^\mu&#x3D;\Lambda^\mu_{\nu}x^\nu\</p><p>\end{align}<br>$$<br><strong>1.2</strong> Show that under a Lorentz transformation,</p>]]></content>
+    <content type="html"><![CDATA[<p><strong>1.1</strong> Show that the 4D volumn element is invariant under Lorentz transformation:<br>$$d^4x &#x3D; d^4x′$$pr.<br>$$<br>d^4x’&#x3D;\partial \frac{x’^\mu}{\partial x^\nu}&#x3D;\frac{\partial \Lambda^\mu_{\nu}x^\rho}{\partial x^\nu}&#x3D;\Lambda^\mu_{\rho}\delta^\rho_{\nu}&#x3D;\Lambda<br>$$</p><p>$$<br>\begin{align} \<br>&amp;d^4x’&#x3D;\frac{\partial x’^\mu}{\partial x^\nu}\<br> &amp;\frac{\partial x’^\mu}{\partial x^\nu}&#x3D;\frac{\partial \Lambda^\mu_{\nu}x^\rho}{\partial x^\nu}&#x3D;\Lambda^\mu_{\rho}\delta^\rho_{\nu}&#x3D;\Lambda^\mu_{\nu} \ \<br>\Rightarrow &amp;d^4x’^\mu&#x3D;\Lambda^\mu_{\nu}x^\nu\</p><p>\end{align}<br>$$<br><strong>1.2</strong> Show that under a Lorentz transformation,</p>]]></content>
     
     
       
@@ -126,19 +126,6 @@
   </entry>
   
   <entry>
-    <title>first attempt</title>
-    <link href="https://afflatusd.github.io/2024/10/18/%E7%BE%A4%E9%80%9F%E5%BA%A6%E5%92%8C%E8%84%89%E5%86%B2%E8%89%B2%E6%95%A31/"/>
-    <id>https://afflatusd.github.io/2024/10/18/%E7%BE%A4%E9%80%9F%E5%BA%A6%E5%92%8C%E8%84%89%E5%86%B2%E8%89%B2%E6%95%A31/</id>
-    <published>2024-10-17T16:00:00.000Z</published>
-    <updated>2024-10-18T15:38:06.532Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>群速度和脉冲色散</title>
     <link href="https://afflatusd.github.io/2024/10/17/%E7%BE%A4%E9%80%9F%E5%BA%A6%E5%92%8C%E8%84%89%E5%86%B2%E8%89%B2%E6%95%A3/"/>
     <id>https://afflatusd.github.io/2024/10/17/%E7%BE%A4%E9%80%9F%E5%BA%A6%E5%92%8C%E8%84%89%E5%86%B2%E8%89%B2%E6%95%A3/</id>
@@ -185,64 +172,9 @@
   </entry>
   
   <entry>
-    <title>test4</title>
-    <link href="https://afflatusd.github.io/2024/10/15/test4/"/>
-    <id>https://afflatusd.github.io/2024/10/15/test4/</id>
-    <published>2024-10-15T12:27:48.000Z</published>
-    <updated>2024-10-15T12:27:48.462Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ttest</title>
-    <link href="https://afflatusd.github.io/2024/10/15/ttest/"/>
-    <id>https://afflatusd.github.io/2024/10/15/ttest/</id>
-    <published>2024-10-15T12:21:48.000Z</published>
-    <updated>2024-10-15T12:22:11.027Z</updated>
-    
-    <content type="html"><![CDATA[<p>测试默认top_img</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;测试默认top_img&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>test</title>
     <link href="https://afflatusd.github.io/2024/10/15/test/"/>
     <id>https://afflatusd.github.io/2024/10/15/test/</id>
-    <published>2024-10-15T12:10:02.000Z</published>
-    <updated>2024-10-15T12:21:08.822Z</updated>
-    
-    <content type="html"><![CDATA[<p>测试top_img的效果</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;测试top_img的效果&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://afflatusd.github.io/2024/10/15/test2/"/>
-    <id>https://afflatusd.github.io/2024/10/15/test2/</id>
     <published>2024-10-15T12:10:02.000Z</published>
     <updated>2024-10-15T12:21:08.822Z</updated>
     
