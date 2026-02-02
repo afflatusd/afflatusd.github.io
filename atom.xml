@@ -6,7 +6,7 @@
   <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
   <link href="https://afflatusd.github.io/"/>
-  <updated>2025-04-07T23:29:48.597Z</updated>
+  <updated>2025-08-17T04:07:10.474Z</updated>
   <id>https://afflatusd.github.io/</id>
   
   <author>
@@ -15,6 +15,55 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://afflatusd.github.io/2025/08/17/%E6%9C%AA%E5%91%BD%E5%90%8D/"/>
+    <id>https://afflatusd.github.io/2025/08/17/%E6%9C%AA%E5%91%BD%E5%90%8D/</id>
+    <published>2025-08-17T04:05:50.171Z</published>
+    <updated>2025-08-17T04:07:10.474Z</updated>
+    
+    <content type="html"><![CDATA[<p>以下是今日对话的总结（2025年08月17日）：</p><p>核心讨论主题</p><p>1. 狄拉克旋量场基础</p><ul><li>数学结构：4分量复值场 $\psi(x)$，满足狄拉克方程 $(i\gamma^\mu\partial_\mu - m)\psi &#x3D; 0$</li><li>物理意义：描述自旋½费米子（电子&#x2F;夸克），天然包含粒子与反粒子对称性</li><li>旋量分解：可拆分为左手&#x2F;右手外尔旋量，体现手征性</li></ul><p>2. 量子化过程</p><ul><li>场算符展开：$\hat{\psi}(x) &#x3D; \int \frac{d3p}{(2\pi)3} \frac{1}{\sqrt{2E_{\vec{p}}}} \sum_{s} \left( \hat{c}_p^s u^s(p) e^{-ipx} + \hat{d}_p^{s\dagger} v^s(p) e^{ipx} \right)$</li><li>$\hat{c}_p^s$：湮灭粒子算符</li><li>$\hat{d}_p^{s\dagger}$：产生反粒子算符</li><li>反对易关系：${\hat{\psi}\alpha(t,\vec{x}), \hat{\psi}^\dagger\beta(t,\vec{y})} &#x3D; \delta^{(3)}(\vec{x}-\vec{y}) \delta_{\alpha\beta}$</li></ul><p>确保泡利不相容原理</p><p>3. 洛伦兹协变性验证</p><ul><li>旋量变换规则：$\psi’(x’) &#x3D; S(\Lambda)\psi(x)$</li><li>S(\Lambda) &#x3D; $e{-\frac{i}{4}\omega_{\rho\sigma}\Sigma{\rho\sigma}}（\Sigma^{\rho\sigma} &#x3D; \frac{i}{2}[\gamma^\rho, \gamma^\sigma]）$</li><li>协变性证明：</li><li>狄拉克方程形式不变：$(i\gamma^\mu\partial’\mu - m)\psi’ &#x3D; S(\Lambda)(i\gamma^\nu\partial\nu - m)\psi &#x3D; 0$</li><li>流密度 $j^\mu &#x3D; \bar{\psi}\gamma^\mu\psi$ 满足四维矢量变换：$j’^\mu &#x3D; \Lambda^\mu{}_\nu j^\nu$</li></ul><p>关键结论</p><ul><li>反粒子的必然性：负频解 vs(p)e{ipx} 物理诠释为反粒子，解决负能疑难</li><li>自旋统计定理：反对易关系 → 费米子排斥 → 原子结构&#x2F;中子星物质稳定性</li><li>相对论量子力学基石：协变性与量子化共同支撑QED、标准模型等理论</li></ul><p>今日递进逻辑：</p><p>概念层（场结构）→ 量子层（算符与量子化）→ 对称性层（洛伦兹协变）</p><p>完整覆盖狄拉克旋量场从经典到量子、从静态到相对论性运动的逻辑链条。</p><p>如需复现某部分内容或继续深化（如离散对称性CPT、路径积分量子化等），可随时告知！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;以下是今日对话的总结（2025年08月17日）：&lt;/p&gt;
+&lt;p&gt;核心讨论主题&lt;/p&gt;
+&lt;p&gt;1. 狄拉克旋量场基础&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数学结构：4分量复值场 $&#92;psi(x)$，满足狄拉克方程 $(i&#92;gamma^&#92;mu&#92;partial_&#92;mu - m)&#92;psi &amp;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://afflatusd.github.io/2025/08/15/%E7%8B%84%E6%8B%89%E5%85%8B%E5%9C%BA/"/>
+    <id>https://afflatusd.github.io/2025/08/15/%E7%8B%84%E6%8B%89%E5%85%8B%E5%9C%BA/</id>
+    <published>2025-08-15T10:30:56.125Z</published>
+    <updated>2025-08-16T02:18:54.375Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>You may already be familar with the Dirac equation in its orignal incarnation</p></blockquote><h1 id="3-1-波动方程的洛伦兹不变性"><a href="#3-1-波动方程的洛伦兹不变性" class="headerlink" title="3.1 波动方程的洛伦兹不变性"></a>3.1 波动方程的洛伦兹不变性</h1><p>通常我们所说的洛伦兹不变，都是说某一物理量，或者某一方成，在经过rotation &amp; boost之后仍然保持形式不变。关键在于<br>$$<br>\phi \to \Lambda \phi<br>$$<br>其中$\Lambda$是洛伦兹群的群表示矩阵<br>那么如何确定$M(\Lambda)$的表达式呢？</p><blockquote><p>[!NOTE] 旋转群<br>最重要的非平凡表示是二维表示，对应 spin&#x3D;1&#x2F;2<br>$$U&#x3D;e^{-i\theta ^i \sigma^i&#x2F;2}$$<br>一般的，对任意连续群于恒等式无穷小的变化定义了一个向量空间，称为群的李代数。该向量空间的基向量称为李代数或群生成元。对于旋转群，生成元是角动量$J^i$, 满足<br>$$<br>[J^i,J^j]&#x3D;i\epsilon^{ijk}J^k<br>$$</p></blockquote><blockquote></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;You may already be familar with the Dirac equation in its orignal incarnation&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;3-1-波动方程的洛伦兹不变性&quot;&gt;&lt;a </summary>
+      
+    
+    
+    
+    
+    <category term="qfm" scheme="https://afflatusd.github.io/tags/qfm/"/>
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -168,27 +217,6 @@
     
     
     <category term="optics" scheme="https://afflatusd.github.io/tags/optics/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://afflatusd.github.io/2024/10/15/test/"/>
-    <id>https://afflatusd.github.io/2024/10/15/test/</id>
-    <published>2024-10-15T12:10:02.000Z</published>
-    <updated>2024-10-15T12:21:08.822Z</updated>
-    
-    <content type="html"><![CDATA[<p>测试top_img的效果</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;测试top_img的效果&lt;/p&gt;
-</summary>
-      
-    
-    
-    
     
   </entry>
   
