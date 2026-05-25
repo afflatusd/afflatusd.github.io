@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://afflatusd.github.io/photos/index.html</loc>
+    <loc>https://afflatusd.github.io/about/index%201.html</loc>
+    
+    <lastmod>2026-05-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://afflatusd.github.io/about/index%203.html</loc>
     
     <lastmod>2026-05-25</lastmod>
     
@@ -101,16 +110,7 @@
   </url>
   
   <url>
-    <loc>https://afflatusd.github.io/shuoshuo/index.html</loc>
-    
-    <lastmod>2024-10-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://afflatusd.github.io/categories/index.html</loc>
+    <loc>https://afflatusd.github.io/about/index%202.html</loc>
     
     <lastmod>2024-10-21</lastmod>
     
@@ -245,14 +245,14 @@
 
   
   <url>
-    <loc>https://afflatusd.github.io/tags/test/</loc>
+    <loc>https://afflatusd.github.io/tags/optics/</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://afflatusd.github.io/tags/optics/</loc>
+    <loc>https://afflatusd.github.io/tags/test/</loc>
     <lastmod>2026-05-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
