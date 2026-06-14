@@ -6,7 +6,7 @@
   <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
   <link href="https://afflatusd.github.io/"/>
-  <updated>2026-05-27T13:00:34.076Z</updated>
+  <updated>2026-06-14T14:33:54.645Z</updated>
   <id>https://afflatusd.github.io/</id>
   
   <author>
@@ -17,13 +17,33 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>象棋学习计划</title>
+    <link href="https://afflatusd.github.io/2026/06/14/2026-06-14/"/>
+    <id>https://afflatusd.github.io/2026/06/14/2026-06-14/</id>
+    <published>2026-06-13T16:00:00.000Z</published>
+    <updated>2026-06-14T14:33:54.645Z</updated>
+    
+    <content type="html"><![CDATA[<p>发现一个象棋平台，叫做<a href="">https://www.xiangqi.ca/</a>，这个平台，就我感觉属于为爱发电的那种。没有广告，在这一点完胜天天象棋。而且界面也很简洁，没有会员，引导做得也不错，照顾到各分段的棋手。打算目前每天残局训练10min, 开局训练10min，大师复盘1盘。争取一周提升一个AI等级<br>首先是残局的问题<br>掌握残局的最好方式是练习。做残局题、与AI下减少子力的对局、学习有教益的大师残局。查看我们的 <a href="https://www.xiangqi.ca/zh/puzzles">残局板块</a> <a href="https://www.xiangqi.ca/zh/strategy">策略指南</a> <a href="https://www.xiangqi.ca/zh/master-games">大师棋局</a><br>练习残局的方式<br>三种方法：(1) 在我们平台做残局题——我们有数百道专门的残局题目。(2) 与AI对弈并练习转化优势。(3) 学习大师棋局，在残局阶段暂停，尝试自己找到获胜走法，然后再看大师的着法。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;发现一个象棋平台，叫做&lt;a href=&quot;&quot;&gt;https://www.xiangqi.ca/&lt;/a&gt;，这个平台，就我感觉属于为爱发电的那种。没有广告，在这一点完胜天天象棋。而且界面也很简洁，没有会员，引导做得也不错，照顾到各分段的棋手。打算目前每天残局训练10min, 开局训</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
     <link href="https://afflatusd.github.io/2026/05/27/%E5%BE%AE%E5%88%86%E6%B5%81%E5%BD%A2%E5%9F%BA%E7%A1%80/"/>
     <id>https://afflatusd.github.io/2026/05/27/%E5%BE%AE%E5%88%86%E6%B5%81%E5%BD%A2%E5%9F%BA%E7%A1%80/</id>
-    <published>2026-05-27T12:37:55.542Z</published>
-    <updated>2026-05-27T13:00:34.076Z</updated>
+    <published>2026-05-26T16:00:00.000Z</published>
+    <updated>2026-05-27T13:08:15.299Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="1-微分流形定义和例子"><a href="#1-微分流形定义和例子" class="headerlink" title="1 微分流形定义和例子"></a>1 微分流形定义和例子</h1><ol><li>坐标卡和局部坐标系</li><li>微分结构</li><li>微分流形</li></ol><blockquote><p>[!important] 极大坐标卡集的唯一性<br>$\Lambda_{0}$是M上的满足1，2 的坐标卡集，M上存在唯一的$C^r$微分结构$\Lambda \supset \Lambda_{0}$</p></blockquote><blockquote><p>[!example] $S^2$是一个二维微分流形<br>我们可以选择一个坐标卡集$\Lambda&#x3D;{ \varphi_{N},\varphi_{S} }$, 其中<br>$$ \varphi_{N}(x,y,z)&#x3D;\frac{1}{1-z}(x,y),(x,y,z)\in S^2 &#x2F;{ N }$$</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="1-微分流形定义和例子"><a href="#1-微分流形定义和例子" class="headerlink" title="1 微分流形定义和例子"></a>1 微分流形定义和例子</h1><ol><li>坐标卡和局部坐标系</li><li>微分结构</li><li>微分流形</li></ol><blockquote><p>[!important] 极大坐标卡集的唯一性<br>$\Lambda_{0}$是M上的满足1，2 的坐标卡集，M上存在唯一的$C^r$微分结构$\Lambda \supset \Lambda_{0}$</p></blockquote><h3 id="【例1】"><a href="#【例1】" class="headerlink" title="【例1】"></a>【例1】</h3><blockquote><p>[!example] $S^2$是一个二维微分流形<br>证明方法是选择一个坐标卡集，然后证明其中的坐标卡$C^r$相关</p></blockquote><p>我们可以选择一个坐标卡集$\Lambda&#x3D;{ \varphi_{N},\varphi_{S} }$, 其中<br>$$ \begin{align}<br>\varphi_{N}(x,y,z)&#x3D;\frac{1}{1+z}(x,y),(x,y,z)\in S^2 &#x2F;{ N } \<br>  \varphi_{S}(x,y,z)&#x3D;\frac{1}{1-z}(x,y),(x,y,z)\in S^2 &#x2F;{ S }<br>\end{align}$$</p>]]></content>
     
     
       
