@@ -6,7 +6,7 @@
   <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
   <link href="https://afflatusd.github.io/"/>
-  <updated>2026-06-14T14:33:54.645Z</updated>
+  <updated>2026-06-14T14:49:22.623Z</updated>
   <id>https://afflatusd.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://afflatusd.github.io/2026/06/14/2026-06-14/"/>
     <id>https://afflatusd.github.io/2026/06/14/2026-06-14/</id>
     <published>2026-06-13T16:00:00.000Z</published>
-    <updated>2026-06-14T14:33:54.645Z</updated>
+    <updated>2026-06-14T14:49:22.623Z</updated>
     
     <content type="html"><![CDATA[<p>发现一个象棋平台，叫做<a href="">https://www.xiangqi.ca/</a>，这个平台，就我感觉属于为爱发电的那种。没有广告，在这一点完胜天天象棋。而且界面也很简洁，没有会员，引导做得也不错，照顾到各分段的棋手。打算目前每天残局训练10min, 开局训练10min，大师复盘1盘。争取一周提升一个AI等级<br>首先是残局的问题<br>掌握残局的最好方式是练习。做残局题、与AI下减少子力的对局、学习有教益的大师残局。查看我们的 <a href="https://www.xiangqi.ca/zh/puzzles">残局板块</a> <a href="https://www.xiangqi.ca/zh/strategy">策略指南</a> <a href="https://www.xiangqi.ca/zh/master-games">大师棋局</a><br>练习残局的方式<br>三种方法：(1) 在我们平台做残局题——我们有数百道专门的残局题目。(2) 与AI对弈并练习转化优势。(3) 学习大师棋局，在残局阶段暂停，尝试自己找到获胜走法，然后再看大师的着法。</p>]]></content>
     
@@ -88,7 +88,7 @@
     <link href="https://afflatusd.github.io/2024/11/12/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E4%BD%9C%E4%B8%9A/"/>
     <id>https://afflatusd.github.io/2024/11/12/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA%E4%BD%9C%E4%B8%9A/</id>
     <published>2024-11-12T12:37:23.237Z</published>
-    <updated>2025-04-07T23:29:48.597Z</updated>
+    <updated>2026-06-14T14:50:10.884Z</updated>
     
     <content type="html"><![CDATA[<p><strong>1.1</strong> Show that the 4D volumn element is invariant under Lorentz transformation:<br>$$d^4x &#x3D; d^4x′$$pr.<br>$$<br>d^4x’&#x3D;\partial \frac{x’^\mu}{\partial x^\nu}&#x3D;\frac{\partial \Lambda^\mu_{\nu}x^\rho}{\partial x^\nu}&#x3D;\Lambda^\mu_{\rho}\delta^\rho_{\nu}&#x3D;\Lambda<br>$$</p><p>$$<br>\begin{align} \<br>&amp;d^4x’&#x3D;\frac{\partial x’^\mu}{\partial x^\nu}\<br> &amp;\frac{\partial x’^\mu}{\partial x^\nu}&#x3D;\frac{\partial \Lambda^\mu_{\nu}x^\rho}{\partial x^\nu}&#x3D;\Lambda^\mu_{\rho}\delta^\rho_{\nu}&#x3D;\Lambda^\mu_{\nu} \ \<br>\Rightarrow &amp;d^4x’^\mu&#x3D;\Lambda^\mu_{\nu}x^\nu\</p><p>\end{align}<br>$$<br><strong>1.2</strong> Show that under a Lorentz transformation,</p>]]></content>
     
