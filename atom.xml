@@ -6,7 +6,7 @@
   <link href="https://afflatusd.github.io/atom.xml" rel="self"/>
   
   <link href="https://afflatusd.github.io/"/>
-  <updated>2026-06-14T14:49:22.623Z</updated>
+  <updated>2026-06-22T08:35:15.301Z</updated>
   <id>https://afflatusd.github.io/</id>
   
   <author>
@@ -17,13 +17,61 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>第一章：为什么要&quot;连续场算符&quot;？</title>
+    <link href="https://afflatusd.github.io/2026/06/22/%E7%AC%AC%E4%B8%80%E7%AB%A0/"/>
+    <id>https://afflatusd.github.io/2026/06/22/%E7%AC%AC%E4%B8%80%E7%AB%A0/</id>
+    <published>2026-06-22T08:10:19.024Z</published>
+    <updated>2026-06-22T08:35:15.301Z</updated>
+    
+    <content type="html"><![CDATA[<p>定义<strong>光学场算符</strong> $\hat \psi_o(\omega, z)$，表示在位置 z 处、频率 $\omega$ 处的光场振幅密度。比如如果光场是光频梳，可以表示为<br>$$<br>\psi_{o}(\omega,z)&#x3D;\sum a_{n}(z)\delta(\omega-\omega_{n})<br>$$<br>从而可以导出对易关系<br>$$[\hat \psi_o(\omega, z), \hat \psi_o^\dagger(\omega’, z’)] &#x3D; \delta(\omega - \omega’) \delta(z - z’)$$<br>声子场也一样<br>$$[\hat \psi_p(\Omega, z), \hat \psi_p^\dagger(\Omega’, z’)] &#x3D; \delta(\Omega - \Omega’) \delta(z - z’)$$<br>特别的，当光谱由两根分立谱线组成时，$\hat \psi_o(\omega, z) &#x3D; \hat a_H(z) \delta(\omega - \omega_H) + \hat a_L(z) \delta(\omega - \omega_L)$，自动回到离散形式。连续包含离散作为特例。<br>$$<br>\hat H_0 &#x3D; \hbar \iint \omega , \hat \psi_o^\dagger \hat \psi_o , d\omega , dz + \hbar \iint \Omega , \hat \psi_p^\dagger \hat \psi_p , d\Omega , dz<br>$$</p><h2 id="光学场连续算符"><a href="#光学场连续算符" class="headerlink" title="光学场连续算符"></a>光学场连续算符</h2><p>定义<strong>光学场算符</strong> $\hat \psi_o(\omega, z)$，表示在位置 $z$ 处、频率 $\omega$ 处的光场振幅密度。</p><blockquote><p><strong>物理直观</strong>：$\hat \psi_o(\omega, z) , d\omega$ 是 $[\omega, \omega + d\omega]$ 频率区间内的光场模式算符。总光场由所有频率积分构成。</p></blockquote><p><strong>对易关系</strong>（标准玻色子连续场）：</p><p>$$<br>\boxed{[\hat \psi_o(\omega, z), \hat \psi_o^\dagger(\omega’, z’)] &#x3D; \delta(\omega - \omega’) , \delta(z - z’)}<br>\tag{1.1}<br>$$</p><p>不同频率、不同位置的算符对易为零。</p><p><strong>与离散算符的关系</strong>：当光谱由 $N$ 根分立谱线组成时，</p><p>$$<br>\hat \psi_o(\omega, z) &#x3D; \sum_{n&#x3D;1}^{N} \hat a_n(z) , \delta(\omega - \omega_n)<br>\tag{1.2}<br>$$</p><p>代入 (1.1) 得到离散对易关系 $[\hat a_i(z), \hat a_j^\dagger(z’)] &#x3D; \delta_{ij} \delta(z - z’)$——完全自洽。</p><p><strong>总光子数算符</strong>：<br>$$<br>\hat N_o &#x3D; \iint \hat \psi_o^\dagger(\omega, z) \hat \psi_o(\omega, z) , d\omega , dz<br>\tag{1.3}<br>$$</p><h2 id="1-3-声子场连续算符"><a href="#1-3-声子场连续算符" class="headerlink" title="1.3 声子场连续算符"></a>1.3 声子场连续算符</h2><p>此外定义<strong>声子场算符</strong> $\hat \psi_p(\Omega, z)$，表示在位置 $z$ 处、频率 $\Omega$ 处的声子振幅密度。</p><blockquote><p><strong>物理直观</strong>：$\hat \psi_p(\Omega, z) , d\Omega$ 是 $[\Omega, \Omega + d\Omega]$ 频率区间内的声子模式算符。$\Omega_B$ 是布里渊频率（峰值），但声子谱有洛伦兹展宽。</p></blockquote><p><strong>对易关系</strong>：</p><p>$$<br>\boxed{[\hat \psi_p(\Omega, z), \hat \psi_p^\dagger(\Omega’, z’)] &#x3D; \delta(\Omega - \Omega’) , \delta(z - z’)}<br>\tag{1.4}<br>$$<br>在 SBS 中，声子频率 $\Omega$ 由光学拍频 $\omega - \omega’$ 决定（能量守恒）。因此 $\hat \psi_p(\Omega, z)$ 实际上由<strong>光学算符的双线性型</strong>驱动——这意味着声子场不是独立的，而是从光学场中”派生”的。这在 Phase 3 的动力学方程中会变得明确。</p><h2 id="1-4-自由哈密顿量"><a href="#1-4-自由哈密顿量" class="headerlink" title="1.4 自由哈密顿量"></a>1.4 自由哈密顿量</h2><p>$$<br>\boxed{<br>\hat H_0 &#x3D; \hbar \iint \omega , \hat \psi_o^\dagger(\omega, z) \hat \psi_o(\omega, z) , d\omega , dz</p><ul><li>\hbar \iint \Omega , \hat \psi_p^\dagger(\Omega, z) \hat \psi_p(\Omega, z) , d\Omega , dz<br>}<br>\tag{1.5}<br>$$</li></ul><p><strong>离散退化检验</strong>：用 (1.2) 代入第一项：</p><p>$$<br>\begin{aligned}<br>\iint \omega \sum_i \hat a_i^\dagger(z) \delta(\omega - \omega_i) \sum_j \hat a_j(z) \delta(\omega - \omega_j) , d\omega , dz<br>&amp;&#x3D; \sum_i \omega_i \int \hat a_i^\dagger(z) \hat a_i(z) , dz<br>\end{aligned}<br>$$</p><p>这正是离散模式的自由哈密顿量 $\sum_i \hbar \omega_i \hat a_i^\dagger \hat a_i$（在空间均匀近似下）。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;定义&lt;strong&gt;光学场算符&lt;/strong&gt; $&#92;hat &#92;psi_o(&#92;omega, z)$，表示在位置 z 处、频率 $&#92;omega$ 处的光场振幅密度。比如如果光场是光频梳，可以表示为&lt;br&gt;$$&lt;br&gt;&#92;psi_{o}(&#92;omega,z)&amp;#x3D;&#92;sum a</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>如何从生理学中说明人一天中什么时候最清醒，并设计实验证明之</title>
+    <link href="https://afflatusd.github.io/2026/06/20/%E5%A6%82%E4%BD%95%E4%BB%8E%E7%94%9F%E7%90%86%E5%AD%A6%E4%B8%AD%E8%AF%B4%E6%98%8E%E4%BA%BA%E4%B8%80%E5%A4%A9%E4%B8%AD%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E6%9C%80%E6%B8%85%E9%86%92%EF%BC%8C%E5%B9%B6%E8%AE%BE%E8%AE%A1%E5%AE%9E%E9%AA%8C%E8%AF%81%E6%98%8E%E4%B9%8B/"/>
+    <id>https://afflatusd.github.io/2026/06/20/%E5%A6%82%E4%BD%95%E4%BB%8E%E7%94%9F%E7%90%86%E5%AD%A6%E4%B8%AD%E8%AF%B4%E6%98%8E%E4%BA%BA%E4%B8%80%E5%A4%A9%E4%B8%AD%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E6%9C%80%E6%B8%85%E9%86%92%EF%BC%8C%E5%B9%B6%E8%AE%BE%E8%AE%A1%E5%AE%9E%E9%AA%8C%E8%AF%81%E6%98%8E%E4%B9%8B/</id>
+    <published>2026-06-19T16:00:00.000Z</published>
+    <updated>2026-06-20T05:39:02.685Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一、生理学基础：昼夜节律与警觉度的关系"><a href="#一、生理学基础：昼夜节律与警觉度的关系" class="headerlink" title="一、生理学基础：昼夜节律与警觉度的关系"></a>一、生理学基础：昼夜节律与警觉度的关系</h2><p>人体并非一台”恒稳”运行的机器，而是受<strong>昼夜节律（Circadian Rhythm）</strong>——一个约 24 小时的内源性生物钟——所调控。清醒程度在一天中呈现可预测的波动，这背后涉及多个生理系统的协同作用。</p><h3 id="1-核心体温（Core-Body-Temperature）"><a href="#1-核心体温（Core-Body-Temperature）" class="headerlink" title="1. 核心体温（Core Body Temperature）"></a>1. 核心体温（Core Body Temperature）</h3><p>核心体温是衡量警觉度最可靠的生理指标之一：</p><ul><li><strong>最低点（约凌晨 4:00–5:00）</strong>：此时体温最低，主观困意最强，认知表现最差。</li><li><strong>迅速上升期（约 6:00–11:00）</strong>：体温上升伴随着警觉度同步提高。</li><li><strong>峰值平台（约 12:00–18:00）</strong>：体温维持在高位，警觉度和认知表现最佳。</li><li><strong>下降期（约 18:00–凌晨）</strong>：体温下降，褪黑素释放，困意渐浓。</li></ul><p><strong>关键结论</strong>：核心体温曲线的上升段（上午至午后早期）通常对应最高警觉度。</p><h3 id="2-褪黑素（Melatonin）——-“睡眠激素”"><a href="#2-褪黑素（Melatonin）——-“睡眠激素”" class="headerlink" title="2. 褪黑素（Melatonin）—— “睡眠激素”"></a>2. 褪黑素（Melatonin）—— “睡眠激素”</h3><p>褪黑素由松果体分泌，受光照调控：</p><ul><li><strong>黑暗时</strong>分泌增加，诱导困意。</li><li><strong>光照时</strong>分泌被抑制，促进清醒。</li></ul><p>褪黑素浓度从晚间（约 21:00）开始上升，<strong>凌晨 2:00–4:00 达到峰值</strong>，随后急剧下降。因此从生理上说，<strong>褪黑素水平最低、且光照抑制褪黑素最强的时段（上午至下午），人最清醒</strong>。</p><h3 id="3-皮质醇（Cortisol）——-“清醒激素”"><a href="#3-皮质醇（Cortisol）——-“清醒激素”" class="headerlink" title="3. 皮质醇（Cortisol）—— “清醒激素”"></a>3. 皮质醇（Cortisol）—— “清醒激素”</h3><p>皮质醇由肾上腺分泌，遵循昼夜节律：</p><ul><li><strong>早晨 6:00–8:00 达到分泌峰值</strong>（皮质醇觉醒反应，Cortisol Awakening Response, CAR），帮助人体从睡眠过渡到清醒。</li><li>全天逐渐下降，至深夜达到最低点。</li></ul><p>这种节律使得<strong>起床后 2–4 小时（约 8:00–11:00）</strong>皮质醇与体温双双处于高位，形成生理上的”清醒窗口”。</p><h3 id="4-腺苷（Adenosine）——-“睡眠压力”累积"><a href="#4-腺苷（Adenosine）——-“睡眠压力”累积" class="headerlink" title="4. 腺苷（Adenosine）—— “睡眠压力”累积"></a>4. 腺苷（Adenosine）—— “睡眠压力”累积</h3><p>腺苷是能量代谢的副产品，在清醒期间持续在大脑累积，与腺苷受体结合产生困意。<strong>咖啡因正是通过阻断腺苷受体来提神</strong>。</p><ul><li>早晨腺苷水平最低（经睡眠清除）。</li><li>随清醒时间延长，腺苷逐渐累积。</li><li>午后约 13:00–15:00 达到一个小高峰，形成”午后低谷”（post-lunch dip）。</li></ul><h3 id="5-综合生理曲线"><a href="#5-综合生理曲线" class="headerlink" title="5. 综合生理曲线"></a>5. 综合生理曲线</h3><p>将上述因素叠加，典型的人体警觉度曲线大致如下：</p><table><thead><tr><th>时间段</th><th>核心体温</th><th>褪黑素</th><th>皮质醇</th><th>腺苷</th><th>警觉度</th></tr></thead><tbody><tr><td>4:00–6:00</td><td>最低</td><td>峰值</td><td>低位</td><td>较低（刚经睡眠清除）</td><td>⭐ 极低</td></tr><tr><td>8:00–10:00</td><td>快速上升</td><td>下降中</td><td><strong>峰值</strong></td><td>极低</td><td>⭐⭐⭐⭐⭐ <strong>高</strong></td></tr><tr><td>10:00–12:00</td><td>高位</td><td>极低</td><td>高位</td><td>低位</td><td>⭐⭐⭐⭐⭐ <strong>最高</strong></td></tr><tr><td>13:00–15:00</td><td>小幅回落</td><td>极低</td><td>中位</td><td><strong>累积</strong></td><td>⭐⭐⭐ 午后低谷</td></tr><tr><td>16:00–18:00</td><td>第二高峰</td><td>极低</td><td>中低位</td><td>高位</td><td>⭐⭐⭐⭐ 第二清醒期</td></tr><tr><td>21:00+</td><td>下降</td><td>释放</td><td>低位</td><td>很高</td><td>⭐⭐ 困意渐浓</td></tr></tbody></table><blockquote><p><strong>核心结论</strong>：对大多数符合典型昼夜节律的人而言，<strong>上午 9:00–11:00 前后是最清醒的时段</strong>。这是因为：</p><ol><li>皮质醇刚经历觉醒峰值；</li><li>褪黑素已被光照完全抑制；</li><li>体温快速上升至高位；</li><li>腺苷经由整夜睡眠被清除至最低。</li></ol></blockquote><hr><h2 id="二、个体差异：并非所有人都一样"><a href="#二、个体差异：并非所有人都一样" class="headerlink" title="二、个体差异：并非所有人都一样"></a>二、个体差异：并非所有人都一样</h2><p>需要说明的是，上述曲线描述的是<strong>平均型（中间型 chronotype）</strong>。实际上存在显著的个体差异：</p><ul><li><strong>晨型人（Lark &#x2F; Morning Type）</strong>：皮质醇峰值提前约 1–2 小时，最清醒时段在 7:00–9:00。</li><li><strong>夜型人（Owl &#x2F; Evening Type）</strong>：皮质醇峰值推迟约 1–3 小时，最清醒时段可能出现在 11:00–13:00 甚至 15:00–17:00。</li><li><strong>影响因素</strong>：年龄（青少年偏向夜型、老年人偏向晨型）、基因（如 PER3 基因多态性）、光照暴露等。</li></ul><hr><h2 id="三、实验设计：证明一天中警觉度的生理基础"><a href="#三、实验设计：证明一天中警觉度的生理基础" class="headerlink" title="三、实验设计：证明一天中警觉度的生理基础"></a>三、实验设计：证明一天中警觉度的生理基础</h2><p>以下设计一个<strong>对照、可重复、双盲</strong>的实验方案来验证上述结论。</p><h3 id="实验目的"><a href="#实验目的" class="headerlink" title="实验目的"></a>实验目的</h3><p>验证人体在 <strong>上午 10:00 前后</strong>的认知警觉度显著高于其他时段，并测量其与核心体温、皮质醇分泌的相关性。</p><h3 id="实验设计框架"><a href="#实验设计框架" class="headerlink" title="实验设计框架"></a>实验设计框架</h3><table><thead><tr><th>项目</th><th>内容</th></tr></thead><tbody><tr><td><strong>类型</strong></td><td>重复测量、自身对照实验</td></tr><tr><td><strong>样本量</strong></td><td>N ≥ 30（G*Power 计算，需考虑统计功效）</td></tr><tr><td><strong>受试者</strong></td><td>健康成年人（18–35 岁），匹兹堡睡眠质量指数 PSQI &lt; 5（良好睡眠者），排除倒班工作者</td></tr><tr><td><strong>时长</strong></td><td>每个受试者连续 7 天</td></tr><tr><td><strong>盲法</strong></td><td>数据分析者盲（受试者无法做到完全盲，但测试操作标准化）</td></tr></tbody></table><h3 id="关键指标（因变量）"><a href="#关键指标（因变量）" class="headerlink" title="关键指标（因变量）"></a>关键指标（因变量）</h3><table><thead><tr><th>维度</th><th>具体测量</th><th>工具&#x2F;方法</th></tr></thead><tbody><tr><td><strong>主观警觉度</strong></td><td>卡罗林斯卡困意量表（KSS）</td><td>每 2 小时自评</td></tr><tr><td><strong>客观认知表现</strong></td><td>精神运动警觉度任务（PVT）——反应时、遗漏次数</td><td>标准 PVT 设备或 App</td></tr><tr><td><strong>生理指标</strong></td><td>核心体温</td><td>可穿戴体温监测贴片（如 iButton）连续记录</td></tr><tr><td><strong>生理指标</strong></td><td>唾液皮质醇</td><td>固定时间点采集唾液样本</td></tr><tr><td><strong>生理指标</strong></td><td>褪黑素水平（可选）</td><td>晚间固定时间点测量唾液褪黑素（DLMO）</td></tr><tr><td><strong>控制变量</strong></td><td>睡眠时长、咖啡因摄入、用餐时间</td><td>睡眠日志 + 腕动计</td></tr></tbody></table><h3 id="时间点设计"><a href="#时间点设计" class="headerlink" title="时间点设计"></a>时间点设计</h3><p>每日测量 <strong>7 个时间点</strong>（每点重复 3 次取均值）：</p><ol><li>7:00（起床后 1 小时内）</li><li>9:00</li><li>11:00</li><li>13:00</li><li>15:00</li><li>17:00</li><li>20:00</li></ol><h3 id="实验步骤"><a href="#实验步骤" class="headerlink" title="实验步骤"></a>实验步骤</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">graph TD</span><br><span class="line">    A[筛选受试者] --&gt; B[适应期 2 天&lt;br&gt;熟悉PVT测试、佩戴监测设备]</span><br><span class="line">    B --&gt; C[正式实验 7 天]</span><br><span class="line">    C --&gt; D[每日 7 个时间点&lt;br&gt;1. 填写KSS量表&lt;br&gt;2. 完成10分钟PVT&lt;br&gt;3. 采集唾液样本]</span><br><span class="line">    D --&gt; E[连续体温监测]</span><br><span class="line">    D --&gt; F[睡眠日志+腕动计]</span><br><span class="line">    E --&gt; G[数据分析]</span><br><span class="line">    F --&gt; G</span><br><span class="line">    G --&gt; H[统计检验&lt;br&gt;重复测量ANOVA&lt;br&gt;Pearson相关分析]</span><br></pre></td></tr></table></figure><h3 id="数据分析计划"><a href="#数据分析计划" class="headerlink" title="数据分析计划"></a>数据分析计划</h3><ol><li><p><strong>警觉度的时间效应</strong>：使用重复测量 ANOVA（7 个时间点 × 7 天），检验时间主效应。</p><ul><li>H₀：不同时间点警觉度无显著差异。</li><li>H₁：不同时间点警觉度存在显著差异。</li></ul></li><li><p><strong>事后比较</strong>：Bonferroni 校正后的配对 t 检验，找出哪个时间点警觉度最高。</p></li><li><p><strong>相关性分析</strong>：</p><ul><li>核心体温与 PVT 反应时的 Pearson 相关系数。</li><li>皮质醇水平与 KSS 评分（或 PVT 遗漏数）的相关性。</li></ul></li><li><p><strong>中介效应分析</strong>：体温是否介导了时间→警觉度的效应。</p></li></ol><h3 id="预期结果"><a href="#预期结果" class="headerlink" title="预期结果"></a>预期结果</h3><ul><li>PVT 反应时在 <strong>9:00–11:00 最快</strong>（最低），13:00–15:00 显著减慢（p &lt; 0.05）。</li><li>核心体温在 9:00–12:00 与反应时呈显著负相关（r ≈ -0.4 ~ -0.6）。</li><li>皮质醇在起床后 30–60 分钟的浓度与后续 1–2 小时的 PVT 表现正相关。</li></ul><h3 id="控制混淆因素"><a href="#控制混淆因素" class="headerlink" title="控制混淆因素"></a>控制混淆因素</h3><p>为了确保结果干净，需严格控制以下变量：</p><table><thead><tr><th>混淆变量</th><th>控制方法</th></tr></thead><tbody><tr><td>睡眠剥夺</td><td>监测腕动计，排除睡眠时间 &lt; 6 小时的数据</td></tr><tr><td>咖啡因</td><td>实验期间禁止咖啡、茶、能量饮料</td></tr><tr><td>进餐时间</td><td>标准化进餐时间（8:00 早餐、12:00 午餐、18:00 晚餐）</td></tr><tr><td>光照暴露</td><td>佩戴光照剂量计，统一室内光照（约 500 lux）</td></tr><tr><td>运动</td><td>实验期间禁止剧烈运动</td></tr><tr><td>性别差异</td><td>记录月经周期阶段，统计中作为协变量</td></tr></tbody></table><hr><h2 id="四、可能遇到的挑战与解决方案"><a href="#四、可能遇到的挑战与解决方案" class="headerlink" title="四、可能遇到的挑战与解决方案"></a>四、可能遇到的挑战与解决方案</h2><table><thead><tr><th>挑战</th><th>解决方案</th></tr></thead><tbody><tr><td>个体间 chronotype 差异大</td><td>加入晨-晚问卷（MEQ-SA）将受试者分层后分析</td></tr><tr><td>学习效应（PVT 越做越快）</td><td>充分适应期 + PVT 有大量等同难度的刺激、学习效应很低</td></tr><tr><td>取样频繁干扰受试者安排</td><td>在实验室环境下进行可严格控制；若在自然环境下，使用手机 App + 提醒推送</td></tr><tr><td>唾液皮质醇受应激影响</td><td>每次样本采集前静坐休息 5 分钟，标记是否异常事件</td></tr></tbody></table><hr><h2 id="五、总结"><a href="#五、总结" class="headerlink" title="五、总结"></a>五、总结</h2><ul><li><strong>生理学上</strong>，人体在 <strong>上午 9:00–11:00</strong> 左右警觉度最高，这是核心体温上升、皮质醇处于高位、褪黑素被抑制、腺苷水平达到最低点共同作用的结果。</li><li>**午后的”第二清醒期”**（约 16:00–18:00）同样不可忽视，但对大多数人而言其警觉度略低于上午。</li><li><strong>设计的实验</strong>通过结合主观量表、客观认知任务（PVT）和生理指标（体温、皮质醇），能够科学、可重复地验证这一结论，并为个体差异（chronotype）提供控制与解释。</li></ul><blockquote><p>理解自己的警觉度曲线，可以帮助你更科学地安排一天中最重要的认知工作，<strong>在生理最清醒的时段处理最需要脑力的任务</strong>——这正是”生物钟”理论对提升工作效率最直接的应用。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;一、生理学基础：昼夜节律与警觉度的关系&quot;&gt;&lt;a href=&quot;#一、生理学基础：昼夜节律与警觉度的关系&quot; class=&quot;headerlink&quot; title=&quot;一、生理学基础：昼夜节律与警觉度的关系&quot;&gt;&lt;/a&gt;一、生理学基础：昼夜节律与警觉度的关系&lt;/h2&gt;&lt;p&gt;人体</summary>
+      
+    
+    
+    
+    
+    <category term="生理学" scheme="https://afflatusd.github.io/tags/%E7%94%9F%E7%90%86%E5%AD%A6/"/>
+    
+    <category term="昼夜节律" scheme="https://afflatusd.github.io/tags/%E6%98%BC%E5%A4%9C%E8%8A%82%E5%BE%8B/"/>
+    
+    <category term="认知科学" scheme="https://afflatusd.github.io/tags/%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6/"/>
+    
+    <category term="实验设计" scheme="https://afflatusd.github.io/tags/%E5%AE%9E%E9%AA%8C%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>象棋学习计划</title>
     <link href="https://afflatusd.github.io/2026/06/14/2026-06-14/"/>
     <id>https://afflatusd.github.io/2026/06/14/2026-06-14/</id>
     <published>2026-06-13T16:00:00.000Z</published>
-    <updated>2026-06-14T14:49:22.623Z</updated>
+    <updated>2026-06-14T15:06:13.289Z</updated>
     
-    <content type="html"><![CDATA[<p>发现一个象棋平台，叫做<a href="">https://www.xiangqi.ca/</a>，这个平台，就我感觉属于为爱发电的那种。没有广告，在这一点完胜天天象棋。而且界面也很简洁，没有会员，引导做得也不错，照顾到各分段的棋手。打算目前每天残局训练10min, 开局训练10min，大师复盘1盘。争取一周提升一个AI等级<br>首先是残局的问题<br>掌握残局的最好方式是练习。做残局题、与AI下减少子力的对局、学习有教益的大师残局。查看我们的 <a href="https://www.xiangqi.ca/zh/puzzles">残局板块</a> <a href="https://www.xiangqi.ca/zh/strategy">策略指南</a> <a href="https://www.xiangqi.ca/zh/master-games">大师棋局</a><br>练习残局的方式<br>三种方法：(1) 在我们平台做残局题——我们有数百道专门的残局题目。(2) 与AI对弈并练习转化优势。(3) 学习大师棋局，在残局阶段暂停，尝试自己找到获胜走法，然后再看大师的着法。</p>]]></content>
+    <content type="html"><![CDATA[<p>发现一个象棋平台，叫做<a href="">https://www.xiangqi.ca/</a>，这个平台，就我感觉属于为爱发电的那种。没有广告，在这一点完胜天天象棋。而且界面也很简洁，没有会员，引导做得也不错，照顾到各分段的棋手。打算目前每天残局训练10min, 开局训练10min，大师复盘1盘。争取一周提升一个AI等级<br>首先是残局的问题<br>掌握残局的最好方式是练习。做残局题、与AI下减少子力的对局、学习有教益的大师残局。查看我们的 <a href="https://www.xiangqi.ca/zh/puzzles">残局板块</a> <a href="https://www.xiangqi.ca/zh/strategy">策略指南</a> <a href="https://www.xiangqi.ca/zh/master-games">大师棋局</a><br>练习残局的方式<br>三种方法：(1) 在我们平台做残局题——我们有数百道专门的残局题目。(2) 与AI对弈并练习转化优势。(3) 学习大师棋局，在残局阶段暂停，尝试自己找到获胜走法，然后再看大师的着法。<br>今天看到的东西：</p><ul><li>开局策略：先出车，控制中路</li><li>中局战术：叠车，炮马互补。弃子攻杀。拱卒。捉双和牵制。</li><li>残局定式：车，马，炮，兵<br>今日完成的项目：<br>车对单帅：最简单的必胜残局。用你的帅限制对方帅到九宫一侧，然后用车在纵线或横线上将杀。这应该是你学的第一个残局定式。 车对仕+帅：通常车方胜。技巧是用你的帅面对对方帅（对面笑威胁）迫使仕离位，然后将杀。 车对双仕+帅：这比较棘手。双仕防守时帅有坚固的堡垒。单车可能不够——你通常需要帅的帮助或额外的棋子。 车兵对全（双仕双相+帅）：通常必胜。兵支援车，控制关键位置，限制帅的活动。将兵送到九宫附近制造杀棋威胁。 双车：双车几乎总能战胜任何防守。它们可以通过在相邻的行或列交替将军来设置“楼梯杀”，将帅逼入角落。</li></ul>]]></content>
     
     
       
@@ -153,9 +201,9 @@
     <link href="https://afflatusd.github.io/2024/10/21/%E4%B8%80%E4%BD%8D%E6%95%B0%E5%AD%A6%E5%AE%B6%E7%9A%84%E6%82%B2%E6%AD%8C/"/>
     <id>https://afflatusd.github.io/2024/10/21/%E4%B8%80%E4%BD%8D%E6%95%B0%E5%AD%A6%E5%AE%B6%E7%9A%84%E6%82%B2%E6%AD%8C/</id>
     <published>2024-10-20T16:00:00.000Z</published>
-    <updated>2026-05-25T13:12:35.597Z</updated>
+    <updated>2026-06-20T05:14:41.648Z</updated>
     
-    <content type="html"><![CDATA[<p>一位音乐家从他的噩梦中醒来。他发现自己正身处一个音乐教育被强行推行的世界。“我们正在帮助我们的学生在一个日益充满声音的世界中更具有竞争力”，教育工作者、学校系统和国家负责这些重要的项目，研究被委托，委员会被组建——所有这些都没有询问过在职的音乐家或作曲家的意见。<br>由于音乐家们习惯以乐谱的形式记录他们的想法，这些奇特的黑点和线条就构成了「音乐的语言」。如果学生想要达到任何程度的音乐能力，就必须精通这种语言；的确，如果一个孩子没有对音乐符号和理论有深入的了解，就期望他唱一首歌或弹一种乐器，那是荒谬的。演奏和聆听音乐，更不用说创作一首原创作品，都被认为是非常高级的话题，通常要等到大学，甚至更多的是研究生阶段才能涉及。</p><p>最终还是使用typora作为生产力</p>]]></content>
+    <content type="html"><![CDATA[<p>一位音乐家从他的噩梦中醒来。他发现自己正身处一个音乐教育被强行推行的世界。“我们正在帮助我们的学生在一个日益充满声音的世界中更具有竞争力”，教育工作者、学校系统和国家负责这些重要的项目，研究被委托，委员会被组建——所有这些都没有询问过在职的音乐家或作曲家的意见。<br>由于音乐家们习惯以乐谱的形式记录他们的想法，这些奇特的黑点和线条就构成了「音乐的语言」。如果学生想要达到任何程度的音乐能力，就必须精通这种语言；的确，如果一个孩子没有对音乐符号和理论有深入的了解，就期望他唱一首歌或弹一种乐器，那是荒谬的。演奏和聆听音乐，更不用说创作一首原创作品，都被认为是非常高级的话题，通常要等到大学，甚至更多的是研究生阶段才能涉及。</p>]]></content>
     
     
       
@@ -259,6 +307,28 @@
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://afflatusd.github.io/2024/10/15/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E5%93%80%E9%B8%BF%E6%9E%97%E7%BF%A9%E7%BF%A9%E7%9A%84%E5%A1%91%E9%80%A0/"/>
+    <id>https://afflatusd.github.io/2024/10/15/%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E5%93%80%E9%B8%BF%E6%9E%97%E7%BF%A9%E7%BF%A9%E7%9A%84%E5%A1%91%E9%80%A0/</id>
+    <published>2024-10-15T12:10:02.000Z</published>
+    <updated>2026-06-20T12:46:04.669Z</updated>
+    
+    <content type="html"><![CDATA[<p>林翩翩这个人物就是时代的悲剧。<br>于是远路的文人学士，便大谈什么“乞丐杀敌”，“屠夫成仁”，“<a href="https://zhida.zhihu.com/search?content_id=777263446&content_type=Answer&match_order=1&q=%E5%A5%87%E5%A5%B3%E5%AD%90&zhida_source=entity">奇女子</a>救国”一流的传奇式古典，想一声锣响，出于意料之外的人物来“为国增光”。——《新的女将》<br>迅哥还是太深刻了，确实，这个人物就是书生意淫的产物，因为一顿饭就无可救药地爱上男主，甚至可以为他与多铎同归于尽。好像这样就可展示书生的人格魅力，然后又逃避亡国的责任。<br>林翩翩的底稿应该是没有什么问题的，但出于<a href="https://zhida.zhihu.com/search?content_id=777054168&content_type=Answer&match_order=1&q=%E7%89%A2%E9%9B%B6&zhida_source=entity">牢零</a>灾难的笔力和入脑的文青病导致这个角色的恋爱剧情炸了而已。其实只要你写她在一个人的时候怎么单相思就好了，这样观感也还不错。但你非要最后搞一个闪回，好像把情绪压抑到最后一刻再爆发，就会有出其不意的效果。但是这样，反而没有了铺垫，观众也会看得莫名其妙。<br>实在不行，可以最后补一个extra，就像很多gal一样。但是他的if线却实在倒胃口。这个if线跟原作已经没关系了，只是为了挽回一下声誉才做的if线，甚至都没有为林翩翩辩护一下的觉悟。<br>可是林翩翩是好女孩啊。。。说白了还是牢方觉得她贱，可是恩将仇报的人也不是人了。<br><a href="https://www.zhihu.com/people/mi-jian-guo-fu-95">(99+ 封私信 &#x2F; 83 条消息) 蜜饯果脯 - 知乎</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;林翩翩这个人物就是时代的悲剧。&lt;br&gt;于是远路的文人学士，便大谈什么“乞丐杀敌”，“屠夫成仁”，“&lt;a href=&quot;https://zhida.zhihu.com/search?content_id=777263446&amp;content_type=Answer&amp;match_o</summary>
+      
+    
+    
+    
+    
+    <category term="shuoshuo" scheme="https://afflatusd.github.io/tags/shuoshuo/"/>
     
   </entry>
   
