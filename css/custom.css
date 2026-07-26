@@ -1,0 +1,12 @@
+/* 让页脚背景透明，露出全屏背景图 */
+#footer {
+    background: transparent !important;
+}
+
+/* 可选：给页脚文字加半透明底，避免看不清 */
+#footer .footer-inner {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(4px);
+    padding: 20px;
+    border-radius: 8px;
+}
