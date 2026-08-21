@@ -26,10 +26,12 @@
 <meta property="og:site_name" content="afflatusdのblog">
 <meta property="og:description" content="自测1  1 单选题 DBCCD CCCDB  2 填空题  −iℏ∂∂x-i\hbar \frac \partial{\partial x}−iℏ∂x∂​ −ℏ22m∇2-\frac{\hbar^2}{2m}\nabla^2−2mℏ2​∇2  −ℏ22m∇2+V^-\frac{\hbar^2}{2m}\nabla^2+\hat{V}−2mℏ2​∇2+V^ Aexp[i&#x2F;ℏ(px−Et)]Aex">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://afflatusd.github.io/img/cover/9.jpg">
 <meta property="article:published_time" content="2024-10-13T15:30:50.000Z">
-<meta property="article:modified_time" content="2026-08-21T11:40:57.295Z">
+<meta property="article:modified_time" content="2026-08-21T12:25:16.003Z">
 <meta property="article:author" content="drd">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://afflatusd.github.io/img/cover/9.jpg">
   
   
   
@@ -350,8 +352,8 @@
 
   
 
-<div id="banner" class="banner" parallax=true
-     style="background: url('/img/background2.png') no-repeat center center; background-size: cover;">
+<div id="banner" class="banner" parallax=true data-random-banner='/img/random/1.jpg,/img/random/10.jpg,/img/random/12.jpg,/img/random/2.jpg,/img/random/3.jpg,/img/random/4.jpg,/img/random/5.jpg,/img/random/6.jpg,/img/random/8.jpg,/img/random/9.jpg,/img/random/background1.jpg,/img/random/background2.png,/img/random/%E7%BB%AB%E5%9C%B0%E5%AE%81%E5%AE%81.jpg,/img/random/%E8%8B%B1.jpg'
+     style="background: url('/img/random/1.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -409,6 +411,19 @@
   </div>
 </div>
 
+
+  <script>
+    (function() {
+      var banner = document.getElementById('banner');
+      if (!banner) return;
+      var list = banner.getAttribute('data-random-banner');
+      if (!list) return;
+      list = list.split(',').filter(Boolean);
+      if (list.length === 0) return;
+      var pick = list[Math.floor(Math.random() * list.length)];
+      banner.style.backgroundImage = "url('" + pick + "')";
+    })();
+  </script>
 
 
 </div>

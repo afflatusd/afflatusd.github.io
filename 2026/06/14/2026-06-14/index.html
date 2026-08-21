@@ -26,10 +26,12 @@
 <meta property="og:site_name" content="afflatusdのblog">
 <meta property="og:description" content="发现一个象棋平台，叫做https:&#x2F;&#x2F;www.xiangqi.ca&#x2F;，这个平台，就我感觉属于为爱发电的那种。没有广告，在这一点完胜天天象棋。而且界面也很简洁，没有会员，引导做得也不错，照顾到各分段的棋手。打算目前每天残局训练10min, 开局训练10min，大师复盘1盘。争取一周提升一个AI等级 首先是残局的问题 掌握残局的最好方式是练习。做残局题、与AI下减少子力的对局、学习有教益的大师残局。查">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://afflatusd.github.io/img/cover/2.jpg">
 <meta property="article:published_time" content="2026-06-13T16:00:00.000Z">
-<meta property="article:modified_time" content="2026-06-23T00:47:07.074Z">
+<meta property="article:modified_time" content="2026-08-21T12:25:15.999Z">
 <meta property="article:author" content="drd">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://afflatusd.github.io/img/cover/2.jpg">
   
   
   
@@ -350,8 +352,8 @@
 
   
 
-<div id="banner" class="banner" parallax=true
-     style="background: url('/img/background2.png') no-repeat center center; background-size: cover;">
+<div id="banner" class="banner" parallax=true data-random-banner='/img/random/1.jpg,/img/random/10.jpg,/img/random/12.jpg,/img/random/2.jpg,/img/random/3.jpg,/img/random/4.jpg,/img/random/5.jpg,/img/random/6.jpg,/img/random/8.jpg,/img/random/9.jpg,/img/random/background1.jpg,/img/random/background2.png,/img/random/%E7%BB%AB%E5%9C%B0%E5%AE%81%E5%AE%81.jpg,/img/random/%E8%8B%B1.jpg'
+     style="background: url('/img/random/1.jpg') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -409,6 +411,19 @@
   </div>
 </div>
 
+
+  <script>
+    (function() {
+      var banner = document.getElementById('banner');
+      if (!banner) return;
+      var list = banner.getAttribute('data-random-banner');
+      if (!list) return;
+      list = list.split(',').filter(Boolean);
+      if (list.length === 0) return;
+      var pick = list[Math.floor(Math.random() * list.length)];
+      banner.style.backgroundImage = "url('" + pick + "')";
+    })();
+  </script>
 
 
 </div>
